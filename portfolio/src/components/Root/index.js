@@ -5,7 +5,7 @@ export default function Root() {
   const location = useLocation;
   return (
     <>
-      <div>
+      <div className="root">
         <ul>
           <li>
             <Link to="/about">

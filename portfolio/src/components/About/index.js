@@ -7,11 +7,11 @@ export default function About() {
       <section class="projects" id="aboutMe">
         <h2>About Me</h2>
         <div>
+          <img src="/components/assets/image0.jpeg" alt="Me"></img>
           <p>
             Patrick Vona is from the Tri-State area and has a passion for full
-            stack web development. he is interested in creating devices to
-            optimize gaming. In his free time, Patrick also enjoys playing music
-            professionally, playing video games, and watching sports.
+            stack web development. He is well versed in many program langauges
+            such as JavaScript, TypeScript, Node, and JSON .
           </p>
         </div>
       </section>

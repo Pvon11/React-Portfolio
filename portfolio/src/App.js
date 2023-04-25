@@ -5,6 +5,9 @@ import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import "./components/Footer/footer.css";
+import "./components/Root/root.css";
+
 import {
   Route,
   RouterProvider,
