@@ -1,7 +1,6 @@
 // import "./App.css";
 import Root from "./components/Root";
-import About from "./components/About";
-import Resume from "./components/Resume";
+import About from "./components/About/index";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";

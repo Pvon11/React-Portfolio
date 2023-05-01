@@ -3,8 +3,8 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <footer class="footer" id="contact">
-        <h3>Contact Information</h3>
+      <footer className="flex end-0 justify-between">
+        <h3 className="text-lg">Contact Information</h3>
 
         <a href="https://github.com/Pvon11" target="_blank">
           Github

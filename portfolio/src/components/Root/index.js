@@ -13,11 +13,6 @@ export default function Root() {
             </Link>
           </li>
           <li>
-            <Link to="/resume">
-              <span>Resume</span>
-            </Link>
-          </li>
-          <li>
             <Link to="/projects">
               <span>Projects</span>
             </Link>
