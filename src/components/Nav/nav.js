@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export default function nav() {
   return (
-    <div className="fixed top-0 w-full h-[100px] flex justify-between items-center text-lg px-5 bg-blue-700 text-amber-700 text-2xl font-serif">
+    <div className="fixed top-0 w-full h-[100px] flex justify-between items-center px-5 bg-blue-700 text-amber-700 text-2xl font-serif">
       <div>
         <h1>Patrick Vona</h1>
       </div>

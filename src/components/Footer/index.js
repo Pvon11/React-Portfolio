@@ -11,6 +11,8 @@ export default function Footer() {
         </a>
 
         <p>1-609-477-2944</p>
+
+        <p>patrickvona11@gmail.com</p>
       </footer>
     </>
   );
