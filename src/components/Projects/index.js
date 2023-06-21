@@ -85,83 +85,93 @@ export default function Projects() {
         </div>
         <div className="flex-col border-solid border-2 border-blue-600 w-200 h-200 justify-center font-serif text-xl p-5 rounded mx-auto max-w-[1000px] my-10">
           <h2>{projects[1].name}</h2>
-          <img className="w-1/2" src={projects[1].image}></img>
-          <p>{projects[1].description}</p>
-          <p>{projects[1].technologies}</p>
-          <a href="https://kelseyra.github.io/movie-battle/">
-            <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
-              Deployed Link
-            </button>
-          </a>
-          <a href="https://github.com/KelseyRA/movie-battle">
-            <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
-              Github
-            </button>
-          </a>
+          <img className="w-1/2 mx-auto" src={projects[1].image}></img>
+          <div className="text-center">
+            <p>{projects[1].description}</p>
+            <p>{projects[1].technologies}</p>
+            <a href="https://kelseyra.github.io/movie-battle/">
+              <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
+                Deployed Link
+              </button>
+            </a>
+            <a href="https://github.com/KelseyRA/movie-battle">
+              <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
+                Github
+              </button>
+            </a>
+          </div>
         </div>
         <div className="flex-col border-solid border-2 border-blue-600 w-200 h-200 justify-center font-serif text-xl p-5 rounded mx-auto max-w-[1000px] my-10">
           <h2>{projects[2].name}</h2>
-          <img className="w-1/2" src={projects[2].image}></img>
-          <p>{projects[2].description}</p>
-          <p>{projects[2].technologies}</p>
-          <a href="https://pvon11.github.io/Weather-App//">
-            <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
-              Deployed Link
-            </button>
-          </a>
-          <a href="https://github.com/Pvon11/Weather-App">
-            <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
-              Github
-            </button>
-          </a>
+          <img className="w-1/2 mx-auto" src={projects[2].image}></img>
+          <div className="text-center">
+            <p>{projects[2].description}</p>
+            <p>{projects[2].technologies}</p>
+            <a href="https://pvon11.github.io/Weather-App//">
+              <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
+                Deployed Link
+              </button>
+            </a>
+            <a href="https://github.com/Pvon11/Weather-App">
+              <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
+                Github
+              </button>
+            </a>
+          </div>
         </div>
         <div className="flex-col border-solid border-2 border-blue-600 w-200 h-200 justify-center font-serif text-xl p-5 rounded mx-auto max-w-[1000px] my-10">
           <h2>{projects[3].name}</h2>
-          <img className="w-1/2" src={projects[3].image}></img>
-          <p>{projects[3].description}</p>
-          <p>{projects[3].technologies}</p>
-          <a href="https://murmuring-badlands-33690.herokuapp.com/">
-            <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
-              Deployed Link
-            </button>
-          </a>
-          <a href="https://github.com/Pvon11/Note-Taker">
-            <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
-              Github
-            </button>
-          </a>
+          <img className="w-1/2 mx-auto" src={projects[3].image}></img>
+          <div className="text-center">
+            <p>{projects[3].description}</p>
+            <p>{projects[3].technologies}</p>
+            <a href="https://murmuring-badlands-33690.herokuapp.com/">
+              <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
+                Deployed Link
+              </button>
+            </a>
+            <a href="https://github.com/Pvon11/Note-Taker">
+              <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
+                Github
+              </button>
+            </a>
+          </div>
         </div>
         <div className="flex-col border-solid border-2 border-blue-600 w-200 h-200 justify-center font-serif text-xl p-5 rounded mx-auto max-w-[1000px] my-10">
           <h2>{projects[4].name}</h2>
-          <img className="w-1/2" src={projects[4].image}></img>
-          <p>{projects[4].description}</p>
-          <p>{projects[4].technologies}</p>
-          <a href="https://pvon11.github.io/Password-Generator/">
-            <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
-              Deployed Link
-            </button>
-          </a>
-          <a href="https://github.com/Pvon11/Password-Generator">
-            <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
-              Github
-            </button>
-          </a>
+          <img className="w-1/2 mx-auto" src={projects[4].image}></img>
+          <div className="text-center">
+            <p>{projects[4].description}</p>
+            <p>{projects[4].technologies}</p>
+            <a href="https://pvon11.github.io/Password-Generator/">
+              <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
+                Deployed Link
+              </button>
+            </a>
+            <a href="https://github.com/Pvon11/Password-Generator">
+              <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
+                Github
+              </button>
+            </a>
+          </div>
         </div>
         <div className="flex-col border-solid border-2 border-blue-600 w-200 h-200 justify-center font-serif text-xl p-5 rounded mx-auto max-w-[1000px] my-10">
           <h2>{projects[5].name}</h2>
-          <img className="w-1/2" src={projects[5].image}></img>
-          <p>{projects[5].description}</p>
-          <p>{projects[5].technologies}</p>
-          <a href="https://pvon11.github.io/Work-Planner/">
-            <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
-              Deployed Link
-            </button>
-          </a>
-          <a href="https://github.com/Pvon11/Work-Planner">
-            <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
-              Github
-            </button>
-          </a>
+          <img className="w-1/2 mx-auto" src={projects[5].image}></img>
+          <div className="text-center">
+            <p>{projects[5].description}</p>
+            <p>{projects[5].technologies}</p>
+            <a href="https://pvon11.github.io/Work-Planner/">
+              <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
+                Deployed Link
+              </button>
+            </a>
+            <a href="https://github.com/Pvon11/Work-Planner">
+              <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
+                Github
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

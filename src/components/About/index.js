@@ -9,7 +9,7 @@ export default function About() {
         <h2 className="flex text-5xl p-5 font-serif text-center">About Me</h2>
         <div>
           <img className="p-5" src={picture} alt="Whoops"></img>
-          <p className="flex justify-between p-5 text-xl font-serif">
+          <p className="flex justify-between p-5 text-xl font-mono border-black border-2">
             Hello! I'm glad you're here. Allow me to introduce myself. My name
             is Patrick Vona, and I am a passionate and dedicated full stack web
             developer. I recently graduated from the prestigious Penn Full Stack
